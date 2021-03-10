@@ -1,19 +1,111 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 body{
     font-family:'Poppins', sans-serif;
 }
-h1{
-    font-size: 50px;
+header{
+    height: auto;
+    background-image: url("img/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.name{
-    color: orange;
+.head-content{
+    margin-top: 100px;
+    margin-left: 100px;
 }
-.half-width{
-    width: 40%;
-    padding-left: 2%;
-    margin-left: 5%;
-    float: left;
+.head-img{
+    width: 90%;
+    height: 90%;
+}
+.head-content h1{
+    color: rgb(245, 77, 105);
+    font-size: 45px;
+    font-weight: 600;
+    margin-left: -8px;
+    line-height: 75px;
+}
+.head-content p{
+    font-size: 16px;
+    line-height: 30px;
+    padding-bottom: 35px;
+}
+.btn-hire{
+    border: none;
+    background: rgb(245, 77, 105); 
+    color: white;
+    border-radius: 6px;
+    padding: 8px 12px;
+}
+.biography{
+    margin: 100px 0;
+    height: auto;
+    background-image: url("img/biography-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
-.half-width img{
-    width: 100%;
+.bio-pic{
+    width: 80%;
+    height: 80%;
+}
+.bio-text{
+    margin-top: 100px;
+    margin-right: 100px;
+}
+.bio-text h2{
+    font-size: 35px;
+    padding-bottom: 37px;
+    padding-top: 35px;
+    
+}
+.btn-cv{
+    border: none;
+    background: rgb(245, 77, 105); 
+    color: white;
+    border-radius: 5px;
+    padding: 9px 20px;
+    margin-top: 30px;
+}
+
+.latest-work{
+    margin: 100px 0;
+    height: auto;
+    background-image: url("img/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.latest-work h2{
+    text-align: center;
+}
+
+footer{
+    margin: 100px 0;
+    height: auto;
+    background-image: url("img/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.client{
+    text-align: center;
+}
+.ceo{
+    margin-top: 50px;
+}
+.ceo h5{
+    line-height: 20px;
+}
+.lorem{
+    margin-top: 30px;
+    padding: 0 182px;
+}
+.last{
+    background:rgb(245, 77, 105);
+    color: white;
+    margin: 85px 282px;
+    padding: 40px 20px;
+}
+.copy{
+   margin-bottom: -95px;
 }
